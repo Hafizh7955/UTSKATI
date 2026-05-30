@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reservasi Servis - INDOFIX</title>
+</head>
+<body>
+
+<table width="100%" border="1" bordercolor="black" cellspacing="0" cellpadding="0">
+    <tr>
+        <td colspan="2" bgcolor="black" height="100" align="center">
+            <font color="white" size="6"><b>INDOFIX SERVICE CENTER</b></font>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" bgcolor="yellow" height="40" align="center">
+            <b>
+                <a href="index.html">Tentang Perusahaan</a> | 
+                <a href="layanan.html">Katalog Layanan</a> | 
+                <a href="reservasi.html">Reservasi Servis</a> | 
+                <a href="kontak.html">Kontak & Biodata</a>
+            </b>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%" bgcolor="lightblue" valign="top">
+            <br><center><h3>Bantuan Formulir</h3></center>
+            <p>Silakan isi formulir dengan data yang valid agar teknisi kami mudah menghubungi Anda.</p>
+        </td>
+        <td width="80%" valign="top">
+            <h2>Formulir Reservasi Servis Perangkat</h2>
+            <form>
+                <table width="70%" border="0" cellpadding="5">
+                    <tr>
+                        <td>Nama Pelanggan</td>
+                        <td>: <input type="text" name="nama" size="40"></td>
+                    </tr>
+                    <tr>
+                        <td>Nomor WhatsApp</td>
+                        <td>: <input type="text" name="hp" size="40"></td>
+                    </tr>
+                    <tr>
+                        <td>Alamat Email</td>
+                        <td>: <input type="email" name="email" size="40"></td>
+                    </tr>
+                    <tr>
+                        <td>Metode Pengiriman</td>
+                        <td>: 
+                            <input type="radio" name="antar" value="bawa"> Bawa ke Toko
+                            <input type="radio" name="antar" value="jemput"> Penjemputan Kurir
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Kelengkapan yang diserahkan</td>
+                        <td>: 
+                            <input type="checkbox" name="unit" value="laptop"> Unit Laptop/PC
+                            <input type="checkbox" name="charger" value="charger"> Charger
+                            <input type="checkbox" name="tas" value="tas"> Tas
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Merk Perangkat</td>
+                        <td>: 
+                            <select name="merk">
+                                <option value="asus">ASUS</option>
+                                <option value="acer">ACER</option>
+                                <option value="lenovo">LENOVO</option>
+                                <option value="hp">HP</option>
+                                <option value="lainnya">Lainnya...</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top">Keluhan Kerusakan</td>
+                        <td>: <textarea name="keluhan" rows="5" cols="40"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <br>
+                            <input type="submit" value="Kirim Data Reservasi">
+                            <input type="reset" value="Bersihkan Form">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" bgcolor="black" height="50" align="center">
+            <font color="white">© 2026 INDOFIX Service Center.</font>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
